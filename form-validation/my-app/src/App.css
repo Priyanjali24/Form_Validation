@@ -1,0 +1,43 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+.success {
+  text-align: center;
+}
+
+.success p {
+  font-size: 30px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  font-weight: bolder;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: rgb(27, 27, 159);
+  color: rgb(186, 114, 114);
+  border: none;
+}
+
+form span {
+  color: rgb(64, 255, 0);
+  font-size: 12px;
+}
+
+
